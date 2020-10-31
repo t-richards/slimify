@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+
+[Action]
+Description = Removing unnecessary files...
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/slimify
