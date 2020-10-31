@@ -1,3 +1,7 @@
 # Built packages
 *.tar.xz
 *.tar.zst
+
+# Build things
+src/
+pkg/
