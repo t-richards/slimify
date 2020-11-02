@@ -21,5 +21,5 @@ RUN set -ex; \
     # Install custom-built package from previous stage
     pacman --noprogressbar --noconfirm -U /opt/*.pkg.tar.zst; \
     # Install a package to see it work!
-    pacman --noprogressbar --noconfirm -Syy ruby-docs; \
+    pacman --noprogressbar --noconfirm -Syy ruby; \
     find /var/cache/pacman/pkg/
