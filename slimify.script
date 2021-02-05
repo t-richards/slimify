@@ -6,4 +6,4 @@ rm -rf \
     /usr/share/info/* \
     /var/cache/pacman/pkg/* \
     /var/lib/pacman/sync/* \
-    /var/log/*.log; \
+    /var/log/*.log
