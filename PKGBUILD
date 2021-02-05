@@ -10,7 +10,7 @@ source=(
     "slimify.script"
     "slimify.hook"
 )
-sha256sums=('b999539efec2cdd3773aad529afe6cd137b6affaefb452556c183080620b01ae'
+sha256sums=('57ac870f32da77cd0c05f5cac2ff43ff97763c6431e823b7765c8fda51626d97'
             'd5328ebd6755211f6791b856daace901cda1c4cccfa5bfba4db81071b20dc080')
 
 package() {
